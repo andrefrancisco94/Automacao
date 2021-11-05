@@ -2,8 +2,8 @@ var oracledb = require('oracledb');
  
 oracledb.getConnection(
   {
-    user          : "andre_francisco",
-    password      : "Francisco4",
+    user          : "User",
+    password      : "Password",
     connectString : "192.168.3.170:1521/TMHML"
   },
   function(err, connection) {
